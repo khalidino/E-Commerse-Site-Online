@@ -3,7 +3,9 @@ import Home from '../views/Home.vue'
 import About from '../views/About.vue'
 import Admin from '../components/Admin.vue'
 import Login from '../components/Login.vue'
-import Register from '../components/Register.vue'
+import Register from '../components/Register.vue' 
+import ViewProduct from '../components/Products/ViewProduct'
+import AddProduct from '../components/Products/AddProduct'
 
 const routes = [
   {
@@ -25,6 +27,21 @@ const routes = [
     path: '/login',
     name: 'Login',
     component: Login
+  },
+  {
+    path: '/register',
+    name: 'Register',
+    component: Register
+  },
+  {
+    path: '/products',
+    name: 'ViewProduct',
+    component: ViewProduct
+  },
+  {
+    path: '/add',
+    name: 'AddProduct',
+    component: AddProduct
   },
   {
     path: '/register',

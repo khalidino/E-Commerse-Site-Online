@@ -11,8 +11,8 @@
       <nav class="nav-menu d-none d-lg-block">
         <ul>
           <li><router-link to="/"> Home</router-link></li>
+          <li><router-link to="/products"> Products</router-link></li>
            <li><router-link to="/about"> About</router-link></li>
-          <li><a href="#services">Services</a></li>
           <li><a href="#portfolio">Portfolio</a></li>
           
           <li class="drop-down"><a href="">Drop Down</a>
